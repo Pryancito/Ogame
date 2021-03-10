@@ -1,0 +1,8 @@
+cache/*
+includes/FIRST_INSTALL
+composer.json
+composer.lock
+includes/backups/*
+includes/config.php
+includes/error.log
+vendor/
