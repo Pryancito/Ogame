@@ -11,7 +11,7 @@
     <title>{block name="title"} - {$gameName}{/block}</title>	
     <meta name="generator" content="New-Star {$VERSION}">
 	<meta name="keywords" content="New-Star {$VERSION}">
-	<meta name="description" content="New-Star Browsergame powerd by https://github.com/Yaro2709/New-Star">
+	<meta name="description" content="Browsergame of spacial strategy and colonization. Make yours the powerfull.">
     <!--favicon-->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <!--goto refresh-->
