@@ -166,7 +166,7 @@
 			<div class="separator_nav"></div>
             {/if}
             {if isModuleAvailable($smarty.const.MODULE_CHAT)}
-			<a title="{$LNG.lm_chat}" href="https://chateros.org/?channels=#AureAWorld" rel="noopener noreferrer" target="_blank"><span class="chat"></span></a>
+			<a title="{$LNG.lm_chat}" href="game.php?page=chat" rel="noopener noreferrer" target="_blank"><span class="chat"></span></a>
             <div class="separator_nav"></div> 
             {/if}
             {if !empty($hasBoard)}
