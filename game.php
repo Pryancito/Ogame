@@ -31,11 +31,6 @@ $mode 		= HTTP::_GP('mode', 'show');
 $page		= str_replace(array('_', '\\', '/', '.', "\0"), '', $page);
 $pageClass	= 'Show'.ucwords($page).'Page';
 
-if ($page == "buybuild") { $pageClass = "ShowBuyBuildPage"; }
-if ($page == "buydefense") { $pageClass = "ShowBuyDefensePage"; }
-if ($page == "buyfleet") { $pageClass = "ShowBuyFleetPage"; }
-if ($page == "buytech") { $pageClass = "ShowBuyTechPage"; }
-
 $path		= 'includes/pages/game/'.$pageClass.'.class.php';
 
 if(!file_exists($path)) {

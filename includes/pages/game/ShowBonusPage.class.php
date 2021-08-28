@@ -32,9 +32,9 @@ class ShowBonusPage extends AbstractGamePage
 			$this->redirectTo('game.php');
         
 		$bonus = array(
-			921	=> rand(100,1000),
-			922	=> rand(15,100),
-			924	=> rand(1,3),
+			921	=> rand(1000,10000),
+			922	=> rand(150,1000),
+			924	=> rand(10,30),
 		);
         
 		foreach($bonus as $id => $key)
