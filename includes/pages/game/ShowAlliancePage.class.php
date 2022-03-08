@@ -874,12 +874,10 @@ class ShowAlliancePage extends AbstractGamePage
             $resourceStorage[$resourceID]['current']		    = $this->allianceData[$resource[$resourceID]];
         }        
         
-        $max_res = 1000;
-		
 		$this->tplObj->loadscript("trader_all.js");
 		$this->tplObj->assign_vars(array(
             'resourceStorage'		    => $resourceStorage,
-			'max_res'                   => $max_res,
+			'max_res'                   => "unlimited",
 		));
 		
 		$this->display('page.alliance.put.tpl');
@@ -896,7 +894,6 @@ class ShowAlliancePage extends AbstractGamePage
         $working_array = array_merge($reslist['resstype'][1],$reslist['resstype'][3]);
         $res           = array();
         $total         = 0;
-        $max_res       = 1000;
         
         foreach($working_array as $resourceID)
         {
@@ -908,10 +905,6 @@ class ShowAlliancePage extends AbstractGamePage
 			$this->printMessage(''.$LNG['al_storage_msg_enter'].'', true, array("?page=alliance&amp;mode=storage", 2));
         }
 
-        if($total > $max_res){
-			$this->printMessage(''.$LNG['al_storage_msg_much'].'', true, array("?page=alliance&amp;mode=storage", 2));
-        }
-        
         foreach($working_array as $resourceID)
         {
             if(isset($PLANET[$resource[$resourceID]])){
@@ -993,13 +986,11 @@ class ShowAlliancePage extends AbstractGamePage
             $resourceStorage[$resourceID]['current']		    = $this->allianceData[$resource[$resourceID]];
         }    
 
-		$max_res = 1000;
-		
 		$this->tplObj->loadscript("trader_all.js");
 		$this->tplObj->assign_vars(array(
             'resourceStorage'		    => $resourceStorage,
         
-			'max_res' 					=> $max_res,
+			'max_res' 					=> "unlimited",
 		));
 		
 		$this->display('page.alliance.vlyat.tpl');
@@ -1017,7 +1008,6 @@ class ShowAlliancePage extends AbstractGamePage
         $working_array = array_merge($reslist['resstype'][1],$reslist['resstype'][3]);
         $res           = array();
         $total         = 0;
-        $max_res       = 1000;
         
         foreach($working_array as $resourceID)
         {
@@ -1029,10 +1019,6 @@ class ShowAlliancePage extends AbstractGamePage
 			$this->printMessage(''.$LNG['al_storage_msg_enter'].'', true, array("?page=alliance&amp;mode=storage", 2));
         }
 
-        if($total > $max_res){
-			$this->printMessage(''.$LNG['al_storage_msg_much'].'', true, array("?page=alliance&amp;mode=storage", 2));
-        }
-        
         foreach($working_array as $resourceID)
         {
             if(isset($this->allianceData[$resource[$resourceID]])){
