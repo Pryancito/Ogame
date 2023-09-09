@@ -1,0 +1,881 @@
+<?php
+// 영어로 번역한 것입니다. (번역자: Yaro2709)
+// 2020년부터의 모든 권리는 보유되었습니다.
+// 회사 1367.
+
+// 네비게이션:
+//{IDs_0001} 일반
+//{IDs_0002} 임무 이름
+//{IDs_0003} 행성 유형의 이름
+//{IDs_0004} 게임 내 권리
+//{IDs_0005} 일반
+//{IDs_0006} 상단 네비게이션 바
+//{IDs_0007} 메뉴
+//{IDs_0008} 개요
+//{IDs_0009} 은하
+//{IDs_0010} 파랑신
+//{IDs_0011} 제국
+//{IDs_0012} 함대
+//{IDs_0013} 창조
+//{IDs_0014} 자원
+//{IDs_0015} 구매자
+//{IDs_0016} 기술
+//{IDs_0017} 정보
+//{IDs_0018} 메시지
+//{IDs_0019} 동맹
+//{IDs_0020} 친구 목록
+//{IDs_0021} 메모장
+//{IDs_0022} 통계
+//{IDs_0023} 검색
+//{IDs_0024} 설정
+//{IDs_0025} 차단 목록
+//{IDs_0026} 세션
+//{IDs_0027} 비행 중인 함대
+//{IDs_0028} 추가 언어 키
+//{IDs_0029} 전투 보고서
+//{IDs_0030} 경고
+//{IDs_0031} 행성간 로켓
+//{IDs_0032} 명예 전당
+//{IDs_0033} 플레이어 프로필
+//{IDs_0034} 기술 지원
+//{IDs_0035} 레코드
+//{IDs_0036} 전투 시뮬레이터
+//{IDs_0037} 함대 구매자
+//{IDs_0038} 로그아웃
+
+//{IDs_0001} 일반
+$LNG['write_message']                         = '메시지 작성';
+$LNG['PM']                                    = '[PM]';
+$LNG['ready']                                 = '준비 완료';
+$LNG['loading']                               = '로드 중...'; // 메시지
+$LNG['invalid_action']                        = '잘못된 동작입니다!!'; // 거래자
+//{IDs_0002} 임무 이름
+$LNG['type_mission_1']                        = '공격';
+$LNG['type_mission_2']                        = 'ACS - 협력 공격';
+$LNG['type_mission_3']                        = '수송';
+$LNG['type_mission_4']                        = '배치';
+$LNG['type_mission_5']                        = '전달';
+$LNG['type_mission_6']                        = '정찰';
+$LNG['type_mission_7']                        = '식민지 개척';
+$LNG['type_mission_8']                        = '분해';
+$LNG['type_mission_9']  					         = '파괴';
+$LNG['type_mission_10']  					         = '미사일 공격';
+$LNG['type_mission_11']  					         = '암흑 물질 연구';
+$LNG['type_mission_15'] 					         = '원정';
+$LNG['type_mission_18']                              = '성운 섹터로의 원정';
+//{IDs_0003} 행성 유형 이름
+$LNG['type_planet_1']  					             = '행성';
+$LNG['type_planet_2']  					             = '폐허 범위';
+$LNG['type_planet_3']  					             = '달';
+//{IDs_0004} 게임 권한
+$LNG['user_level_0']                                 = '플레이어';
+$LNG['user_level_1']                                 = '관리자';
+$LNG['user_level_2']                                 = '운영자';
+$LNG['user_level_3']                                 = '관리자';
+//{IDs_0005} 일반
+$LNG['page_doesnt_exist']					         = '이 페이지는 존재하지 않습니다';
+$LNG['bad_forum_url']				    	         = '잘못된 포럼 링크입니다!';
+$LNG['admin_access_1']				    	         = '플레이어들은 임시적으로 관리자 기능에 접근할 수 있습니다!';
+$LNG['admin_access_link']				             = '이 접근 비활성화';
+$LNG['admin_access_2']				    	         = ', 더 이상 필요하지 않을 경우';
+//{IDs_0006} 상단 네비게이션 바
+$LNG['tn_vacation_mode']					         = "현재 휴가 모드입니다";
+$LNG['tn_delete_mode']						         = '%s에서 계정이 자동으로 삭제됩니다!';
+//{IDs_0007} 메뉴
+$LNG['lm_overview']							         = '전체 요약';
+$LNG['lm_galaxy']							         = '은하계';
+$LNG['lm_control']							         = '제어';
+$LNG['lm_fleet']							         = '함대';
+$LNG['lm_buildings']						         = '건물';
+$LNG['lm_research']							         = '연구';
+$LNG['lm_shipshard']						         = '격납고';
+$LNG['lm_defenses']							         = '방어 시설';
+$LNG['lm_resources']						         = '자원';
+$LNG['lm_officiers']						         = '임원';
+$LNG['lm_trader']							         = '시장';
+$LNG['lm_fleettrader']						         = '함대 개량상인';
+$LNG['lm_technology']						         = '기술';
+$LNG['lm_messages']							         = '메시지';
+$LNG['lm_alliance']							         = '동맹';
+$LNG['lm_buddylist']						         = '친구목록';
+$LNG['lm_notes']							         = '노트';
+$LNG['lm_statistics']						         = '통계';
+$LNG['lm_search']							         = '검색';
+$LNG['lm_options']							         = '옵션';
+$LNG['lm_banned']							         = '차단됨';
+$LNG['lm_forums']							         = '포럼';
+$LNG['lm_logout']							         = '로그아웃';
+$LNG['lm_administration']					         = '관리';
+$LNG['lm_topkb']							         = '명예의 전당';
+$LNG['lm_faq']								         = 'FAQ'; //???
+$LNG['lm_records']							         = '기록';
+$LNG['lm_chat']								         = '채팅';
+$LNG['lm_changelog']						         = '변경 로그'; //???
+$LNG['lm_support']							         = '지원';
+$LNG['lm_rules']							         = '규칙';
+$LNG['lm_battlesim']						         = '시뮬레이터';
+$LNG['lm_playercard']                                = '플레이어 프로필';
+$LNG['lm_info']                     		         = '정보';
+//{IDs_0008} 개요
+$LNG['ov_newname_specialchar']				         = '행성 이름은 숫자, 문자, _, -, . 및 공백만 포함해야 합니다';
+$LNG['ov_newname_done'] = '새 이름이 입력되었습니다!';
+$LNG['ov_planet_abandoned'] = '행성이 파괴되었습니다!';
+$LNG['ov_principal_planet_cant_abanone'] = '주 행성을 삭제할 수 없습니다!';
+$LNG['ov_abandon_planet_not_possible'] = '활동이 존재하기 때문에 행성을 삭제할 수 없습니다!';
+$LNG['ov_wrong_pass'] = '비밀번호가 틀립니다!';
+$LNG['ov_free'] = '무료';
+$LNG['ov_news'] = '뉴스';
+$LNG['ov_place'] = '위치';
+$LNG['ov_of'] = '의';
+$LNG['ov_planet'] = '행성';
+$LNG['ov_diameter'] = '직경';
+$LNG['ov_distance_unit'] = 'km';
+$LNG['ov_temperature'] = '온도';
+$LNG['ov_aprox'] = '대략';
+$LNG['ov_temp_unit'] = '°C';
+$LNG['ov_to'] = '—';
+$LNG['ov_position'] = '위치';
+$LNG['ov_points'] = '포인트';
+$LNG['ov_security_request'] = '보안 질문';
+$LNG['ov_security_confirm'] = '행성을 파괴하시겠습니까? %s';
+$LNG['ov_fields']							         = '필드';
+$LNG['ov_developed_fields']					         = '사용된 필드';
+$LNG['ov_max_developed_fields']				         = '최대 허용 필드';
+$LNG['ov_fleet']							         = '함대';
+$LNG['ov_userbanner']						         = '플레이어 배너';
+$LNG['ov_userrank_info']					         = '%s (%s <a href="game.php?page=statistics&amp;range=%d">%d</a> %s %s)';
+$LNG['ov_teamspeak_not_online']				         = '팀스피크 서버가 현재 사용되지 않음';
+$LNG['ov_teamspeak']						         = '팀스피크';
+$LNG['ov_teamspeak_connect']				         = '연결';
+$LNG['ov_teamspeak_online']					         = '온라인';
+$LNG['ov_closed']							         = '우주가 현재 비활성화됨';
+//{IDs_0009} 은하
+$LNG['gl_no_deuterium_to_view_galaxy']		         = '은하를 보기에 충분한 드트륨이 없습니다';
+$LNG['gl_short_strong']						         = 'S';
+$LNG['gl_short_newbie']						         = 'N';
+$LNG['gl_short_vacation']					         = '휴가';
+$LNG['gl_short_ban']						         = '금지';
+$LNG['gl_short_inactive']					         = '비활성';
+$LNG['gl_short_long_inactive']				         = '장기 비활성';
+$LNG['gl_short_enemy']						         = '';
+$LNG['gl_short_friend']						         = '';
+$LNG['gl_short_member']						         = '';
+$LNG['gl_populed_planets']					         = '%d 개의 존재하는 행성';
+$LNG['gl_out_space']						         = '은하의 깊은 지역';
+$LNG['gl_avaible_missiles']					         = '사용 가능한 미사일';
+$LNG['gl_fleets']							         = '함대 슬롯';
+$LNG['gl_avaible_grecyclers']				         = '기가 리사이클러';
+$LNG['gl_avaible_recyclers']				         = '리사이클러';
+$LNG['gl_avaible_spyprobes']				         = '스파이 프로브';
+$LNG['gl_missil_launch']					         = '미사일 발사';
+$LNG['gl_missil_to_launch']					         = '미사일 수 (<b>%d</b> 개 사용 가능):';
+$LNG['gl_all_defenses']						         = '모든 방어 시설';
+$LNG['gl_objective']						         = '주요 목표';
+$LNG['gl_missil_launch_action']				         = '보내기';
+$LNG['gl_galaxy']							         = '은하';
+$LNG['gl_solar_system']						         = '계';
+$LNG['gl_show']								         = '보기';
+$LNG['gl_pos']								         = '№';
+$LNG['gl_planet']							         = '행성';
+$LNG['gl_name_activity']					         = '이름 (활동)';
+$LNG['gl_moon']								         = '달';
+$LNG['gl_debris']							         = '파편';
+$LNG['gl_player_estate']					         = '플레이어 (국가)';
+$LNG['gl_alliance']							         = '동맹';
+$LNG['gl_actions']							         = '액션';
+$LNG['gl_spy']								         = '정찰';
+$LNG['gl_buddy_request']					         = '친구 요청';
+$LNG['gl_member']							         = '%d 명 멤버';
+$LNG['gl_member_add']						         = '%d 명 멤버';
+$LNG['gl_alliance_page']					         = '동맹 페이지';
+$LNG['gl_see_on_stats']						         = '통계';
+$LNG['gl_debris_field']						         = '파편 필드';
+$LNG['gl_diameter']							         = '지름';
+$LNG['gl_temperature']						         = '온도';
+$LNG['gl_phalanx']							         = '팔랑스';
+$LNG['gl_planet_destroyed']					         = '행성 파괴됨';
+$LNG['gl_playercard']						         = '플레이어 프로필';
+$LNG['gl_player']							         = '플레이어';
+$LNG['gl_in_the_rank']						         = '플레이어 %s이(가) %d위에 있습니다';
+$LNG['gl_activity']							         = '(*)';
+$LNG['gl_activity_inactive']                   = '(%d 분)';
+$LNG['gl_ajax_status_ok']                         = '완료';
+$LNG['gl_ajax_status_fail']                       = '오류';
+$LNG['gl_yes']                                     = '예';
+$LNG['gl_no']                                      = '아니오';
+$LNG['gl_to']                                      = 'to';
+//{IDs_0010} Phalanx
+$LNG['px_no_deuterium']                               = "충분한 듀테리움이 없습니다!";
+$LNG['px_scan_position']                           = '포지션 조사';
+$LNG['px_no_fleet']                                  = '움직이는 함대가 없습니다.';
+$LNG['px_out_of_range']                            = '도달 범위를 벗어남';
+//{IDs_0011} Empire
+$LNG['lv_name']                                     = '이름';
+$LNG['lv_coords']                                  = '좌표';
+$LNG['lv_fields']                                   = '필드';
+$LNG['lv_resources']                             = '자원';
+//{IDs_0012} Fleet
+$LNG['fl_returning']                              = '함대 복귀';
+$LNG['fl_onway']                                  = '함대 대상';
+$LNG['fl_r']                                          = '(R)';
+$LNG['fl_a']								         = '(A)';
+$LNG['fl_send_back']						         = '돌아가기';
+$LNG['fl_acs']								         = 'ACS';
+$LNG['fl_no_more_slots']					         = '빈 슬롯이 없습니다';
+$LNG['fl_continue']							         = '계속';
+$LNG['fl_remove_all_ships']					         = '선박 없음';
+$LNG['fl_select_all_ships']					         = '모든 선박';
+$LNG['fl_fleets']							         = '함대';
+$LNG['fl_expeditions']						         = '원정';
+$LNG['fl_number']							         = 'ID';
+$LNG['fl_mission']							         = '미션';
+$LNG['fl_ammount']							         = '인원 수';
+$LNG['fl_beginning']						         = '시작';
+$LNG['fl_departure']						         = '도착(목적지)';
+$LNG['fl_destiny']							         = '목적지';
+$LNG['fl_objective']						         = '목표';
+$LNG['fl_arrival']							         = '도착(복귀)';
+$LNG['fl_info_detail']						         = '상세 정보';
+$LNG['fl_order']							         = '명령';
+$LNG['fl_ship_type']						         = '선박 유형';
+$LNG['fl_ship_available']					         = '사용 가능한 우주선';
+$LNG['fl_planet_shortcut']					         = '(P)';
+$LNG['fl_debris_shortcut']					         = '(DF)';
+$LNG['fl_moon_shortcut']					         = '(M)';
+$LNG['fl_no_shortcuts']						         = '단축키 없음';
+$LNG['fl_dlte_shortcut']					         = '삭제';
+$LNG['fl_shortcut_edition']					         = '단축키 편집';
+$LNG['fl_shortcut_save']					         = '단축키 저장';
+$LNG['fl_shortcut_saved']					         = '단축키 저장됨!';
+$LNG['fl_send_fleet']						         = '함대 보내기';
+$LNG['fl_fleet_speed']						         = '함대 속도';
+$LNG['fl_distance']							         = '거리';
+$LNG['fl_flying_time']					             = '비행 시간';
+$LNG['fl_flying_arrival']					         = '도착';
+$LNG['fl_flying_return']					         = '복귀';
+$LNG['fl_fuel_consumption']			                 = '수소 소비량';
+$LNG['fl_max_speed']						         = '최대 속도';
+$LNG['fl_cargo_capacity']				             = '화물 용량';
+$LNG['fl_shortcut']							         = '단축키';
+$LNG['fl_shortcut_name']					         = '이름';
+$LNG['fl_my_planets']					             = '내 행성';
+$LNG['fl_acs_title']						         = '동맹 공격';
+$LNG['fl_hold_time']						         = '비행 시간';
+$LNG['fl_resources']						         = '자원';
+$LNG['fl_max']								         = '최대';
+$LNG['fl_multi_alarm']						         = '다중 알람!';
+$LNG['fl_empty_target']						         = '임무 없음 (행성이 존재하는지 확인하세요)';
+$LNG['fl_expedition_alert_message']		             = '탐사는 위험한 임무입니다. 함대를 잃을 수 있습니다!';
+$LNG['fl_dm_alert_message']                          = '경고! 성공적으로 채광하면 함대가 사라집니다.';
+$LNG['fl_vacation_mode_active']			             = '휴가 모드 활성화됨';
+$LNG['fl_week_player']						         = '플레이어는 약한 플레이어의 보호를 받습니다';
+$LNG['fl_strong_player']					         = '플레이어가 너무 강합니다.';
+$LNG['fl_in_vacation_player']				         = '플레이어는 휴가 모드입니다';
+$LNG['fl_no_slots']							         = '사용 가능한 슬롯이 없습니다';
+$LNG['fl_no_same_alliance']				             = '행성의 대상 플레이어는 동맹이어야 하거나 친구 목록에 있어야 합니다!';
+$LNG['fl_fleet_sended']						         = '함대가 보내졌습니다';
+$LNG['fl_from']								         = '출발';
+$LNG['fl_arrival_time']						         = '도착 시간';
+$LNG['fl_fleet']							         = '함대';
+$LNG['fl_player']							         = '플레이어 ';
+$LNG['fl_add_to_attack']					         = ' 공격에 추가되었습니다.';
+$LNG['fl_already_invited']					         = ' 님은 이미 초대되었습니다.';
+$LNG['fl_dont_exist']						         = ' 님은 존재하지 않습니다.';
+$LNG['fl_acs_invitation_message']			         = ' ACS에 초대되었습니다.';
+$LNG['fl_acs_invitation_title']				         = 'ACS';
+$LNG['fl_sac_of_fleet']						         = 'ACS 함대';
+$LNG['fl_modify_sac_name']					         = 'ACS 이름 변경';
+$LNG['fl_members_invited']					         = '게스트';
+$LNG['fl_invite_members']					         = '멤버 초대';
+$LNG['fl_simulate']							         = '시뮬레이션';
+$LNG['fl_acs_newname_alphanum']				         = 'ACS 이름은 알파벳과 숫자로만 이루어져야 합니다';
+$LNG['fl_acs_change']						         = '변경';
+$LNG['fl_acs_change_name']					         = '새 이름 입력';
+$LNG['fl_error_not_avalible']				         = '이 좌표에는 행성이 없습니다';
+$LNG['fl_error_empty_derbis']				         = '폐품 지역이 없습니다!';
+$LNG['fl_error_no_moon']					         = '이 좌표에는 달이 없습니다!';
+$LNG['fl_error_same_planet']				         = '출발 행성과 도착 행성이 동일합니다!';
+$LNG['fl_invalid_target']					         = '유효하지 않은 대상';
+$LNG['fl_no_noresource']					         = '부족한 자원이 없습니다!';
+$LNG['fl_no_target']						         = '사용 가능한 대상 행성이 없습니다';
+$LNG['fl_not_all_ship_avalible']			         = '모든 우주선이 존재하지 않습니다.';
+$LNG['fl_no_expedition_slot']				         = '더 이상 원정을 시작할 수 없습니다!';
+$LNG['fl_invalid_mission']					         = '잘못된 미션';
+$LNG['fl_bash_protection']					         = '방패 규칙';
+$LNG['fl_admin_attack']						         = '관리자를 공격할 수 있습니다';
+$LNG['fl_target_exists']					         = '목표 행성';
+$LNG['fl_target_not_exists']				         = '목표 행성이 존재하지 않습니다!';
+$LNG['fl_only_planets_colonizable']			         = '행성만 식민지화할 수 있습니다.';
+$LNG['fl_player_is_noob']					         = '플레이어는 신참 보호 상태입니다!';
+$LNG['fl_player_is_strong']					         = '플레이어가 너무 강합니다!';
+$LNG['fl_not_enough_deuterium']				         = '사용 가능한 듀테륨이 충분하지 않습니다.';
+$LNG['fl_not_enough_space']					         = '충분한 화물 공간이 없습니다.';
+$LNG['fl_hold_time_not_exists']				         = '유효한 보류 시간이 없습니다.';
+//{IDs_0013} 생성
+$LNG['bd_dismantle']						         = '철거';
+$LNG['bd_cancel']							         = '취소';
+$LNG['bd_working']							         = '작업 중';
+$LNG['bd_build']							         = '건설';
+$LNG['bd_build_next_level']					         = '다음 레벨로 건설';
+$LNG['bd_tech_next_level']					         = '다음 레벨로 연구';
+$LNG['bd_no_more_fields']					         = '지구에는 더 이상 무료 필드가 없습니다';
+$LNG['bd_remaining']						         = '잔여:';
+$LNG['bd_building_lab']					             = '연구 실험실이 업그레이드 중일 때는 아무 것도 연구할 수 없습니다';
+$LNG['bd_lvl']								         = '레벨';
+$LNG['bd_building_shipyard']				         = '조선소가 업그레이드 중일 때는 선박을 건설할 수 없습니다';
+$LNG['bd_available']						         = '사용 가능: ';
+$LNG['bd_build_ships']						         = '건설';
+$LNG['bd_operating']						         = '(건설 중)';
+$LNG['bd_price_for_destroy']				         = '파괴 비용:';
+$LNG['bd_maxlevel']                                  = '최대 레벨에 도달했습니다';
+$LNG['bd_max_builds']                                = '건설 대기열은 최대 %d개까지만 보유할 수 있습니다!';
+$LNG['bd_need_engine']                               = '-%s';
+$LNG['bd_more_engine']                               = '+%s';
+$LNG['bd_cancel_warning']                            = '건설 대기열에서 제거하면 소비된 자원의 50%만 반환됩니다';
+$LNG['bd_cancel_send']                               = '건설 취소';
+$LNG['bd_destroy_time'] 					         = '소요 시간';
+$LNG['sys_notenough_money'] 				         = '%s <a href="./game.php?page=buildings&amp;cp=%d&amp;re=0">[%d:%d:%d]</a>에 충분한 자원이 없습니다. 건설: %s.';
+$LNG['sys_nomore_level'] 					         = "더 이상 해당 건물( %s )을 파괴할 수 없습니다.";
+$LNG['sys_buildlist'] 						         = "건설 목록";
+$LNG['sys_techlist'] 						         = '연구 목록';
+$LNG['sys_buildlist_fail'] 				             = "구축 불가";
+//$LNG['rs_amount'] Resources
+$LNG['rs_amount']							         = '수량';
+$LNG['rs_lvl']								         = '레벨';
+$LNG['rs_production_on_planet']			             = '"%s" 행성에서 생성된 자원';
+$LNG['rs_basic_income']					             = '기본 생산';
+$LNG['rs_storage_capacity']				             = '저장 용량';
+$LNG['rs_calculate']						         = '비용 예측';
+$LNG['rs_sum']								         = '총계';
+$LNG['rs_daily']					                 = '일일 생산:';
+$LNG['rs_weekly']							         = '주간 생산:';
+$LNG['rs_ress_bonus']                                = '보너스 (간부/보너스):';
+//$LNG['tr_cost_dm_trader'] Buyer
+$LNG['tr_cost_dm_trader']					         = '상인의 가치는 %s %s입니다!';
+$LNG['tr_not_enought']						         = "%s이(가) 부족합니다.";
+$LNG['tr_exchange_done']					         = '거래가 성공적으로 이루어졌습니다';
+$LNG['tr_exchange_error']					         = '자원의 양이 잘못되었거나 부족합니다';
+$LNG['tr_call_trader']						         = '상인 호출';
+$LNG['tr_call_trader_who_buys']				         = '구매하는 상인 호출';
+$LNG['tr_exchange_quota']					         = '환율은';
+$LNG['tr_sell']								         = '구매 ';
+$LNG['tr_exchange']							         = '거래';
+//{IDs_0016} 기술
+$LNG['tt_requirements']						         = '요구 사항';
+$LNG['tt_lvl']								         = '레벨 ';
+//{IDs_0017} 정보
+$LNG['in_jump_gate_done']					         = '점프 포털이 사용되었습니다. 사용 가능한 위치:';
+$LNG['in_jump_gate_error_data']			             = '오류, 점프할 좌표가 올바르지 않습니다!';
+$LNG['in_jump_gate_not_ready_target']		         = '대상 달에 대한 포털이 준비되지 않았습니다. 준비 예정 시간: ';
+$LNG['in_jump_gate_doesnt_have_one']		         = '다른 점프 포털이 없습니다!';
+$LNG['in_jump_gate_already_used']			         = '점프 포털이 사용되었습니다. 에너지로드 시간: ';
+$LNG['in_rf_again']    			                     = '적에 대한 연속 사격';
+$LNG['in_rf_from']     			                     = '적으로부터 연속 사격';
+$LNG['in_level']       				                 = '레벨';
+$LNG['in_storage'] 							         = '저장소';
+$LNG['in_prod_p_hour'] 						         = '시간당 생산량';
+$LNG['in_difference']  						         = '차이';
+$LNG['in_attack_pt']   			                     = '공격력';
+$LNG['in_capacity']    				                 = '화물 수용량';
+$LNG['in_consumption'] 	                             = '연료 소비량(듀터륨)';
+$LNG['in_jump_gate_start_moon']			             = '달 점프';
+$LNG['in_jump_gate_finish_moon']			         = '목적지 달 점프';
+$LNG['in_jump_gate_select_ships']	                 = '점프 포탈 사용: 우주선 수';
+$LNG['in_jump_gate_wait_time']                       = '다음 점프 가능까지:';
+$LNG['in_jump_gate_jump']					         = '점프';
+$LNG['in_jump_gate_no_target']				         = '사용 가능한 점프 대상 없음.';
+$LNG['in_destroy']     						         = '파괴:';
+$LNG['in_missilestype']   					         = '미사일 종류';
+$LNG['in_missilesamount']    				         = '사용 가능한 미사일 수';
+$LNG['in_engine'] 							         = '엔진';
+$LNG['in_bonus'] 							         = '보너스:';
+//{IDs_0018} 메시지
+$LNG['mg_type'][0]                                   = '스파이';
+$LNG['mg_type'][1]                                   = '플레이어';
+$LNG['mg_type'][2]                                   = '얼라이언스';
+$LNG['mg_type'][3]                                   = '전투';
+$LNG['mg_type'][4]                                   = '시스템';
+$LNG['mg_type'][5]                                   = '수송';
+$LNG['mg_type'][15]                                  = '원정';
+$LNG['mg_type'][50]                                  = '게임';
+$LNG['mg_type'][99]                                  = '건설';
+$LNG['mg_type'][100]                                 = '전체';
+$LNG['mg_type'][999]                                 = '보낸편지함';
+$LNG['mg_no_subject']			                     = '제목 없음';
+$LNG['mg_delete_marked']		                     = '선택한 메시지 삭제';
+$LNG['mg_delete_type_all']                           = '이 유형의 모든 메시지 삭제';
+$LNG['mg_delete_unmarked']                           = '선택하지 않은 모든 메시지 삭제';
+$LNG['mg_delete_all']		                         = '모든 메시지 삭제';
+$LNG['mg_show_only_header_spy_reports']	             = '스파이 보고서의 일부만 표시';
+$LNG['mg_to']                                        = '받는 사람';
+$LNG['mg_error']                                     = '수신자를 찾을 수 없습니다!';
+$LNG['mg_overview']                                  = '관리자 뉴스';
+$LNG['mg_message']                                   = '메시지';
+$LNG['mg_characters']                                = '글자';
+$LNG['mg_send']                                      = '보내기';
+$LNG['mg_message_send']			                     = '메시지가 전송되었습니다!';
+$LNG['mg_empty_text']				                 = '텍스트를 입력하세요';
+$LNG['mg_answer_to']						         = '답장:';
+$LNG['mg_page']								         = '페이지';
+$LNG['mg_read_marked']						         = '선택한 메시지를 읽음으로 표시';
+$LNG['mg_read_type_all']					         = '모든 이 유형의 메시지를 읽음으로 표시';
+$LNG['mg_read_all']							         = '모든 메시지를 읽음으로 표시';
+$LNG['mg_confirm']							         = '확인';
+$LNG['mg_receiver_block_pm']				         = '수신자가 개인 메시지를 차단함.';
+//{IDs_0019} 동맹
+$LNG['al_not_exists']					             = '동맹이 존재하지 않습니다';
+$LNG['al_newname_specialchar']				         = '동맹과 동맹 태그는 숫자, 문자, _, -, . 및 공백만 사용할 수 있습니다!';
+$LNG['al_description_message']		                 = '동맹 설명에서 온 메시지';
+$LNG['al_request']					                 = '지원서';
+$LNG['al_click_to_send_request']		             = '여기를 클릭하여 동맹에게 메시지를 보내세요.';
+$LNG['al_tag_required']					             = '동맹 태그는 비워둘 수 없습니다.';
+$LNG['al_name_required']					         = '동맹 이름은 비워둘 수 없습니다.';
+$LNG['al_already_exists']					         = '동맹 %s은(는) 이미 존재합니다.';
+$LNG['al_created']					                 = '동맹 %s이(가) 생성되었습니다.';
+$LNG['al_continue']							         = '계속';
+$LNG['al_alliance_closed']			                 = '이 동맹은 현재 새 멤버를 받지 않습니다.';
+$LNG['al_request_confirmation_message']              = '신청서가 제출되었습니다. 검토 후 판정에 대한 메시지를 받게 됩니다. <br><a href="game.php?page=alliance">뒤로 가기</a>';
+$LNG['al_write_request']					         = '동맹 %s에 가입을 위한 신청서를 작성하세요.';
+$LNG['al_request_deleted']			                 = '동맹 %s에 대한 가입 신청이 삭제되었습니다. <br> 이제 새로운 신청서를 작성하거나 자체 동맹을 만들 수 있습니다.';
+$LNG['al_request_wait_message_step_1']               = '동맹 %s에 대한 신청서를 보냈습니다.';
+$LNG['al_request_wait_message_step_2']               = '답장을 기다리거나 응용 프로그램을 삭제하십시오.';
+$LNG['al_go_out_yes']						         = '예';
+$LNG['al_go_out_no']                                 = '아니요';
+$LNG['al_kick_player']                               = '연합에서 사용자 %s를 제거 하시겠습니까?';
+$LNG['al_circular_sended']					         = '순환 메시지 전송됨. 이 플레이어들이 순환 메시지를 받습니다:';
+$LNG['al_all_players']						         = '모든 플레이어';
+$LNG['al_no_ranks_defined']				             = '정의된 위치 없음';
+$LNG['al_request_text']						         = '응용 프로그램의 내용';
+$LNG['al_inside_text']						         = '내부 텍스트';
+$LNG['al_outside_text']						         = '외부 텍스트';
+$LNG['al_transfer_alliance']				         = '연합 이전';
+$LNG['al_disolve_alliance']				             = '연합 해산';
+$LNG['al_founder_rank_text']				         = '창립자';
+$LNG['al_new_member_rank_text']			             = '새 멤버';
+$LNG['al_acept_request']					         = '수락';
+$LNG['al_you_was_acceted']					         = '당신은 다음으로 수용되었습니다 ';
+$LNG['al_hi_the_alliance']					         = '안녕하세요! <br>연합 <b>';
+$LNG['al_has_accepted']						         = '</b> 응용 프로그램이 수락되었습니다<br><br>메시지: <br>';
+$LNG['al_decline_request']					         = '거부';
+$LNG['al_you_was_declined']				             = '거부되었습니다 ';
+$LNG['al_has_declined']						     = '</b>님이 신청을 거절했습니다<br><br>메시지: <br>';
+$LNG['al_no_requests']						         = '요청 없음';
+$LNG['al_request_from']						         = '"%s" 요청';
+$LNG['al_name']								         = '동맹 이름 변경';
+$LNG['al_tag']								         = '동맹 태그 변경';
+$LNG['al_users_list']                                = '멤버 목록 (사용자: %d)';
+$LNG['al_manage_alliance']					         = '동맹 관리';
+$LNG['al_circular_front_text']				         = '플레이어 %s이(가) 다음을 작성했습니다:';
+$LNG['al_new_requests']						         = '신규 요청 %d개';
+$LNG['al_goto_chat']						         = '동맹 채팅 참가';
+$LNG['al_save']								         = '저장';
+$LNG['al_rank_name']						         = '직위 이름';
+$LNG['al_num']								         = 'ID';
+$LNG['al_member']							         = '이름';
+$LNG['al_message']							         = '메시지';
+$LNG['al_position']							         = '위치';
+$LNG['al_points']							         = '점수';
+$LNG['al_coords']							         = '좌표';
+$LNG['al_member_since']						         = '가입일';
+$LNG['al_estate']							         = '온라인';
+$LNG['al_back']								         = '돌아가기';
+$LNG['al_actions']							         = '동작';
+$LNG['al_the_alliance']					             = '동맹';
+$LNG['al_reply_to_request']				             = '요청에 응답하기';
+$LNG['al_characters']						         = '문자';
+$LNG['al_request_list']						         = '요청 목록';
+$LNG['al_candidate']						         = '후보';
+$LNG['al_request_date']						         = '신청 일자';
+$LNG['al_transfer_alliance']				         = '동맹 양도 / 수락하기';
+$LNG['al_transfer_to']						         = '양도 대상';
+$LNG['al_transfer_submit']					         = '양도';
+$LNG['al_ally_info_tag']					         = '태그';
+$LNG['al_ally_info_name']					         = '이름';
+$LNG['al_ally_info_members']				         = '멤버';
+$LNG['al_your_request_title']				         = '당신의 신청';
+$LNG['al_applyform_send']					         = '보내기';
+$LNG['al_apply_not_exists']					         = '요청이 존재하지 않습니다.';
+$LNG['al_circular_alliance']				         = '동맹';
+$LNG['al_receiver']							         = '수신자';
+$LNG['al_circular_send_submit']			             = '보내기';
+$LNG['al_circular_reset']					         = '정리';
+$LNG['al_alliance']							         = '동맹';
+$LNG['al_alliance_make']					         = '나만의 동맹 만들기';
+$LNG['al_rank']								         = '당신의 등급';
+$LNG['al_web_site']							         = '홈페이지';
+$LNG['al_inside_section']					         = '내부 영역';
+$LNG['al_make_alliance']					         = '동맹 만들기';
+$LNG['al_make_ally_tag_required']			         = '동맹 태그 (3-8 글자)';
+$LNG['al_make_ally_name_required']			         = '동맹 이름 (3-30 글자)';
+$LNG['al_make_submit']						         = '만들기';
+$LNG['al_find_alliances']					         = '동맹 찾기';
+$LNG['al_find_text']						         = '검색하기';
+$LNG['al_find_no_alliances']                         = '동맹을 찾을 수 없습니다!';
+$LNG['al_find_submit']						         = '검색';
+$LNG['al_manage_ranks']						         = '권한 설정';
+$LNG['al_manage_members']					         = '멤버 관리';
+$LNG['al_set_max_members']					         = '최대 멤버 수';
+$LNG['al_manage_request_min_points']                 = '최소 점수';
+$LNG['al_texts']							         = '텍스트 옵션';
+$LNG['al_manage_options']					         = '옵션';
+$LNG['al_manage_image']						         = '동맹의 이미지';
+$LNG['al_manage_requests']					         = '신청서';
+$LNG['al_requests_not_allowed']			             = '불가능 (동맹이 닫혀 있음)';
+$LNG['al_requests_allowed']				             = '가능 (동맹이 열려 있음)';
+$LNG['al_requests_min_points']                       = ' %s 점';
+$LNG['al_manage_founder_rank']				         = '설립자의 위치';
+$LNG['al_configura_ranks']					         = '권한 설정';
+$LNG['al_create_new_rank']					         = '새로운 등급 생성';
+$LNG['al_create']							         = '생성';
+$LNG['al_requests']							         = '신청';
+$LNG['al_circular_message']			                 = '전체 메시지';
+$LNG['al_leave_alliance']					         = '이 동맹을 나가기';
+$LNG['al_view_stats']						         = '전투 통계를 공개하나요?';
+$LNG['al_view_diplo']						         = '외교 정보를 공개하나요?';
+$LNG['al_view_events']						         = '이벤트 확인';
+$LNG['al_memberlist_min']					         = '분';
+$LNG['al_memberlist_on']					         = '온라인';
+$LNG['al_memberlist_off']					         = '오프라인';
+$LNG['al_diplo']							         = '외교';
+$LNG['al_no_diplo']							         = '-';
+$LNG['al_events']							         = '이벤트';
+$LNG['al_no_events']						         = '현재 이벤트가 없습니다';
+$LNG['al_diplo_level'][1]                            = '윙';
+$LNG['al_diplo_level'][2]                            = '얼라이언스';
+$LNG['al_diplo_level'][3]                            = '무역 협정';
+$LNG['al_diplo_level'][4]                            = '비공격 협정';
+$LNG['al_diplo_level'][5]                            = '전쟁';
+$LNG['al_diplo_level'][6]					         = '비밀 얼라이언스';
+$LNG['al_diplo_no_entry']                            = '- 협정이 없습니다 -';
+$LNG['al_diplo_no_accept']                           = '- 신청 가능한 어플리케이션이 없습니다 -';
+$LNG['al_diplo_accept']                              = '신청';
+$LNG['al_diplo_exists']						         = '이미 "%s" 얼라이언스와 유효한 또는 아직 수락되지 않은 외교적인 관계가 있습니다!';
+$LNG['al_diplo_accept_send']                         = '신청 전송';
+$LNG['al_diplo_create']                              = '새로운 협정 생성.';
+$LNG['al_diplo_create_done']                         = '협정이 성공적으로 생성되었습니다.';
+$LNG['al_diplo_ally']                                = '얼라이언스';
+$LNG['al_diplo_level_des']                           = '협정 종류';
+$LNG['al_diplo_text']                                = '내용/요청';
+$LNG['al_diplo_accept_yes']                          = '협정 서명됨.';
+$LNG['al_diplo_accept_yes_confirm']		             = '정말로 협정을 수락하시겠습니까?';
+$LNG['al_diplo_accept_no']                           = '동맹 거부됨.';
+$LNG['al_diplo_accept_no_confirm']			         = '정말로 동맹을 거부하시겠습니까?';                                                             
+$LNG['al_diplo_confirm_delete']                      = '동맹을 삭제하시겠습니까?';
+$LNG['al_diplo_ask']                                 = '동맹 안건';
+$LNG['al_diplo_ask_mes']                             = '양 측 동맹 (%s) 간의 협정입니다. %s과(와) %s의 동맹 간에 총 %s가 되는 이유입니다.';
+$LNG['al_diplo_war']                                 = '전쟁 선포';
+$LNG['al_diplo_war_mes']                             = '동맹 %s가 동맹 %s에게 전쟁 선포했습니다. 메시지: %s';
+$LNG['al_diplo_head']						         = '외교 관리';
+$LNG['al_diplo_same_alliance']				         = '자신의 동맹과 동맹을 맺을 수 없습니다!';
+$LNG['al_diplo_no_alliance']				         = '%s라는 이름의 동맹은 없습니다!';
+$LNG['al_leave_ally']						         = '동맹을 떠나시겠습니까?';
+$LNG['al_default_leader_name']				         = '지도자';
+$LNG['al_rank_name']						         = '이름';
+$LNG['al_rank_desc']['MEMBERLIST']			         = '멤버 보기 가능';
+$LNG['al_rank_desc']['ONLINESTATE']			         = '온라인 사용자 확인 가능';
+$LNG['al_rank_desc']['TRANSFER']			         = '지도자가 될 수 있음';
+$LNG['al_rank_desc']['SEEAPPLY']			         = '신청서 확인 가능';
+$LNG['al_rank_desc']['MANAGEAPPLY']			         = '신청서 관리 가능';
+$LNG['al_rank_desc']['ROUNDMAIL']			         = '전체 메시지 전송 가능';
+$LNG['al_rank_desc']['ADMIN']				         = '동맹 편집 가능';
+$LNG['al_rank_desc']['KICK']				         = '멤버 삭제 가능함';
+$LNG['al_rank_desc']['DIPLOMATIC']			         = '외교 관리 가능함';
+$LNG['al_rank_desc']['RANKS']				         = '랭크 설정 가능함';
+$LNG['al_rank_desc']['MANAGEUSERS']			         = '멤버 관리 가능함';
+$LNG['al_rank_desc']['EVENTS']			             = '이벤트 확인 가능함';
+$LNG['al_rank_desc']['BANK']                         = '얼라이언스 은행 사용 가능함';
+//{IDs_0020} 친구 목록
+$LNG['bu_request_exists']					         = '이 플레이어에 대한 신청이 이미 있습니다!';
+$LNG['bu_cannot_request_yourself']			         = '자기 자신에게 친구 신청을 보낼 수 없습니다';
+$LNG['bu_request_message']					         = '메시지 신청';
+$LNG['bu_player']							         = '플레이어';
+$LNG['bu_characters']						         = '캐릭터';
+$LNG['bu_send']								         = '보내기';
+$LNG['bu_cancel_request']					         = '요청 취소';
+$LNG['bu_accept']							         = '수락';
+$LNG['bu_decline']							         = '거절';
+$LNG['bu_connected']						         = '접속 중';
+$LNG['bu_minutes']                                   = '분';
+$LNG['bu_online']                                    = '온라인';
+$LNG['bu_disconnected']						         = '오프라인';
+$LNG['bu_alliance']							         = '동맹';
+$LNG['bu_coords']							         = '좌표';
+$LNG['bu_text']								         = '본문';
+$LNG['bu_action']							         = '동작';
+$LNG['bu_my_requests']						         = '내 요청';
+$LNG['bu_partners']							         = '파트너';
+$LNG['bu_delete']                                    = '삭제';
+$LNG['bu_no_request']                                = '사용 가능한 신청이 없습니다!';
+$LNG['bu_no_buddys']                                 = '사용 가능한 친구가 없습니다!';
+$LNG['bu_request_send']                              = '요청이 전송되었습니다!';
+$LNG['bu_new_request_title']				         = '새로운 친구 요청!';
+$LNG['bu_new_request_body']					         = '안녕하세요 %s,<br>%s님이 친구 요청을 보냈습니다!';
+$LNG['bu_accepted_request_title']			         = '친구 요청 수락!';
+$LNG['bu_accepted_request_body']			         = '안녕하세요 %s,<br>%s님이 친구 요청을 수락했습니다!';
+$LNG['bu_rejected_request_title']			         = '친구 요청 거부!';
+$LNG['bu_rejected_request_body']			         = '안녕하세요 %s,<br>%s님이 친구 요청을 거부했습니다!';
+//{IDs_0021} 노트패드
+$LNG['nt_important']						         = '중요';
+$LNG['nt_normal']							         = '일반';
+$LNG['nt_unimportant']						         = '중요하지 않음';
+$LNG['nt_create_note']						         = '노트 생성';
+$LNG['nt_you_dont_have_notes']				         = '사용 가능한 노트가 없습니다';
+$LNG['nt_notes']							         = '노트';
+$LNG['nt_create_new_note']					         = '새로운 노트 생성';
+$LNG['nt_edit_note']						         = '노트 편집';
+$LNG['nt_date_note']						         = '날짜';
+$LNG['nt_subject_note']						         = '제목';
+$LNG['nt_size_note']						         = '크기';
+$LNG['nt_dlte_note']						         = '삭제';
+$LNG['nt_priority']							         = '우선순위';
+$LNG['nt_note']								         = '알림';
+$LNG['nt_characters']						         = '글자';
+$LNG['nt_back']								         = '뒤로';
+$LNG['nt_reset']							         = '초기화';
+$LNG['nt_save']								         = '저장';
+$LNG['nt_no_title']							         = '제목 없음';
+$LNG['nt_no_text']							         = '텍스트 없음';
+//{IDs_0022} 통계
+$LNG['st_player']							         = '플레이어';
+$LNG['st_alliance']							         = '동맹';
+$LNG['st_points']							         = '포인트';
+$LNG['st_fleets']							         = '함대';
+$LNG['st_researh']							         = '연구';
+$LNG['st_buildings']						         = '건물';
+$LNG['st_defenses']							         = '방어';
+$LNG['st_position']							         = '순위';
+$LNG['st_members']							         = '멤버';
+$LNG['st_per_member']						         = '멤버 당';
+$LNG['st_statistics']						         = '통계';
+$LNG['st_updated']							         = '업데이트됨';
+$LNG['st_show']								         = '보기';
+$LNG['st_per']								         = 'by';
+$LNG['st_in_the_positions']					         = '순위에서';
+$LNG['st_write_message']					         = '개인 메시지';
+//{IDs_0023} 검색
+$LNG['sh_tag']							             = '태그';
+$LNG['sh_name']							             = '이름';
+$LNG['sh_members']							         = '멤버';
+$LNG['sh_points']							         = '포인트';
+$LNG['sh_search_in_the_universe']			         = '우주에서 검색';
+$LNG['sh_player_name']                                    = '플레이어 이름';
+$LNG['sh_planet_name']                                    = '행성 이름';
+$LNG['sh_alliance_tag']                                   = '동맹 태그';
+$LNG['sh_alliance_name']                                  = '동맹 이름';
+$LNG['sh_search']                                         = '검색';
+$LNG['sh_write_message']                                  = '개인 메시지';
+$LNG['sh_buddy_request']                                  = '친구 요청';
+$LNG['sh_alliance']                                       = '동맹';
+$LNG['sh_planet']                                         = '행성';
+$LNG['sh_coords']                                         = '위치';
+$LNG['sh_position']                                       = '순위';
+$LNG['sh_loading']                                        = '(로딩 중 ...)';
+//{IDs_0024} 설정
+$LNG['op_cant_activate_vacation_mode']                    = '함대 활동으로 휴가 모드를 활성화 할 수 없습니다.';
+$LNG['op_options_changed']                                = '옵션이 변경되었습니다.';
+$LNG['op_end_vacation_mode']                              = '휴가 종료';
+$LNG['op_save_changes']                                   = '변경 사항 저장';
+$LNG['op_admin_title_options']                            = '관리 옵션';
+$LNG['op_admin_planets_protection']                       = '행성 보호 활성화';
+$LNG['op_user_data']                                      = '사용자 데이터';
+$LNG['op_username']							         = '이름';
+$LNG['op_old_pass']							         = '현재 비밀번호';
+$LNG['op_new_pass']							         = '새 비밀번호 (최소 8자)';
+$LNG['op_repeat_new_pass']					         = '새 비밀번호 (반복)';
+$LNG['op_email_adress']						         = '이메일 주소';
+$LNG['op_permanent_email_adress']			         = '영구 이메일 주소';
+$LNG['op_general_settings']					         = '일반 옵션';
+$LNG['op_sort_planets_by']					         = '행성별 정렬';
+$LNG['op_sort_kind']						         = '분류 순서';
+$LNG['op_lang']								         = '언어';
+$LNG['op_skin_example']						         = '테마';
+$LNG['op_galaxy_settings']					         = '은하 옵션';
+$LNG['op_spy_probes_number']				         = '스파이 프로브 개수';
+$LNG['op_max_fleets_messages']				         = '함대 최대 메시지 개수';
+$LNG['op_shortcut']							         = '바로 가기';
+$LNG['op_show']								         = '보기';
+$LNG['op_spy']								         = '스파이';
+$LNG['op_write_message']					         = '메시지 작성';
+$LNG['op_add_to_buddy_list']				         = '친구 요청 보내기';
+$LNG['op_missile_attack']					         = '미사일 공격';
+$LNG['op_vacation_delete_mode']                     = '휴가 모드/계정 삭제';
+$LNG['op_activate_vacation_mode']                    = '휴가 모드 활성화';
+$LNG['op_dlte_account']                              = '계정 삭제';
+$LNG['op_need_pass_mail']                            = '이메일 주소를 변경하려면 비밀번호를 입력해야 합니다!';
+$LNG['op_not_vaild_mail']                            = '유효한 이메일을 입력하지 않았습니다!';
+$LNG['op_change_mail_exist']                         = '이미 사용 중인 이메일 (%s)을(를) 입력하였습니다!';
+$LNG['op_sort_normal']                               = '해당 순서로';
+$LNG['op_sort_koords']                               = '좌표 별로';
+$LNG['op_sort_abc']                                  = '알파벳 순으로';
+$LNG['op_sort_up']                                   = '오름차순';
+$LNG['op_sort_down']                                 = '내림차순';
+$LNG['op_user_name_no_alphanumeric']                 = '사용자 이름에는 알파벳과 숫자만 입력해야 합니다!';
+$LNG['op_change_name_pro_week']                      = '사용자 이름은 7일에 한 번만 변경할 수 있습니다!';
+$LNG['op_change_name_exist']                         = '선택한 이름 (%s)은 이미 사용 중입니다';
+$LNG['op_active_build_messages']                     = '건물 메시지 활성화';
+$LNG['op_active_spy_messages_mode']                  = '요약된 스파이 보고서 활성화';
+$LNG['op_timezone']                                  = '시간대';
+$LNG['op_block_pm']                                  = '비공개 메시지 차단';
+//{IDs_0025} 금지 목록
+$LNG['bn_no_players_banned']                         = '금지된 플레이어 없음';
+$LNG['bn_exists']  = '총 ';
+$LNG['bn_players_banned'] = '명 플레이어가 차단 되었습니다.';
+$LNG['bn_players_banned_list'] = '차단된 플레이어 목록';
+$LNG['bn_player'] = '플레이어';
+$LNG['bn_reason'] = '이유';
+$LNG['bn_from'] = '시작일';
+$LNG['bn_until'] = '종료일';
+$LNG['bn_by'] = '작성자';
+$LNG['bn_writemail'] = '%s에게 메일 보내기';
+//{IDs_0026} Session
+$LNG['css_account_banned_message'] = '계정이 차단되었습니다!';
+$LNG['css_account_banned_expire'] = '계정이 이미 %s까지 차단 해제되었습니다!';
+$LNG['css_goto_homeside'] = '<a href="./index.php">홈페이지로 이동하기</a>';
+//{IDs_0027} Fleet in flight
+$LNG['cff_aproaching'] = '함대는 다음과 같은 구성입니다: ';
+$LNG['cff_ships'] = ' 유닛';
+$LNG['cff_no_fleet_data'] = '함대 데이터 없음';
+$LNG['cff_acs_fleet'] = 'ACS 함대';
+$LNG['cff_mission_acs'] = '%s에서 %s %s %s으로 향하는 %s %s %s입니다. 임무: %s';
+$LNG['cff_mission_own_0'] = '당신의 %s 중 하나가 %s %s %s으로 향하여 %s %s %s에 도달했습니다. 임무: %s';
+$LNG['cff_mission_own_1']					         = '%s 중 한 명이 %s %s %s에서 %s %s %s로 돌아갑니다. 임무: %s';
+$LNG['cff_mission_own_2']					         = '%s 중 한 명이 %s %s %s 주위를 돌고 있습니다. 임무: %s';
+$LNG['cff_mission_own_mip']					         = '%s %s %s에서 미사일 공격 (%d)이 %s %s %s로 진행 중입니다.';
+$LNG['cff_mission_own_expo_0']				         = '%s 중 한 명이 %s %s %s에서 위치 %s에 도달했습니다. 임무: %s';
+$LNG['cff_mission_own_expo_1']				         = '%s 중 한 명이 위치 %s에서 %s %s %s로 돌아갑니다. 임무: %s';
+$LNG['cff_mission_own_expo_2']				         = '%s 중 한 명이 %s %s %s에서 위치 %s로 원정을 떠났습니다. 임무: %s';
+$LNG['cff_mission_own_recy_0']				         = '%s 중 한 명이 %s %s %s에서 잔해 %s에 도달했습니다. 임무: %s';
+$LNG['cff_mission_own_recy_1']				         = '%s 중 한 명이 잔해 %s에서 행성 %s %s %s로 돌아갑니다. 임무: %s';
+$LNG['cff_mission_target_bad']				         = '적대적인 %s 중 한 명이 플레이어 %s의 %s %s %s에 도달했습니다. 임무: %s';
+$LNG['cff_mission_target_good']				         = '적대적인 %s 중 한 명이 플레이어 %s의 %s %s %s에 도달했습니다. 임무: %s';
+$LNG['cff_mission_target_stay']				         = '친구인 %s 중 한 명이 플레이어 %s의 %s %s %s의 주위에 있습니다. 임무: %s';
+$LNG['cff_mission_target_mip']				         = '플레이어 %s의 %s %s %s로부터 미사일 공격 (%d)이 %s %s %s에 진행 중입니다.';
+//{IDs_0028} 추가 언어 키
+$LNG['fcm_universe']						         = '우주';
+$LNG['fcm_mainplanet']						         = '주 행성';
+$LNG['fcm_planet']							         = '행성';
+$LNG['fcm_moon']							         = '달';
+$LNG['fcm_info']							         = '정보';
+$LNG['fcp_colony']							         = '식민지';
+$LNG['sys_module_inactive']        	 		         = '비활성 모듈';
+$LNG['sys_refferal_from']        	 		         = '시스템';
+$LNG['sys_refferal_title']        	 		         = '플레이어 보너스 %s';
+$LNG['sys_refferal_text']        	 		         = '당신이 추천한 플레이어 %s님이 %s 포인트에 도달했습니다.<br><br>활동적인 플레이어를 초대하면 %s %s로 보상받을 수 있습니다.';
+$LNG['sys_closed_game']        	 			         = '현재 게임이 사용할 수 없습니다:';
+$LNG['spec_mail_inactive_title']  			         = '%s - 알림';
+$LNG['sys_back']							         = '뒤로';
+$LNG['sys_forward']							         = '다음';
+//{IDs_0029} 전투 보고서
+//{IDs_0030} 경고
+$LNG['fa_not_enough_probes']				         = '죄송합니다, 탐사기가 부족합니다';
+$LNG['fa_planet_not_exist']					         = '오류, 행성이 존재하지 않습니다';
+$LNG['fa_not_enough_fuel']					         = '오류, 연료가 충분하지 않습니다';
+$LNG['fa_no_more_slots']					         = '오류, 함대 슬롯이 부족합니다';
+$LNG['fa_no_recyclers']						         = '죄송합니다, 재활용기가 없습니다';
+$LNG['fa_no_fleetroom']						         = '오류, 연료를 위한 충분한 화물 공간이 없습니다';
+$LNG['fa_no_spios']							         = '오류, 탐사기가 없습니다';
+$LNG['fa_vacation_mode']					         = '플레이어는 휴가 모드입니다';
+$LNG['fa_week_player']						         = '플레이어가 너무 약합니다';
+$LNG['fa_strong_player']					         = '플레이어가 너무 강합니다';
+$LNG['fa_not_spy_yourself']					         = '오류, 자신을 감시할 수 없습니다!';
+$LNG['fa_action_not_allowed']					 = '오류, 허용되지 않는 작업';
+$LNG['fa_vacation_mode_current']				 = '오류, 휴가 모드입니다';
+$LNG['fa_sending']								 = '보내기';
+//{IDs_0031} 화성간 로켓
+$LNG['ma_silo_level']						     = '실로 레벨 4가 필요합니다! ';
+$LNG['ma_impulse_drive_required']			     = '충격 동력이 필요합니다';
+$LNG['ma_not_send_other_galaxy']			         = '다른 은하로 로켓을 보낼 수 없습니다. ';
+$LNG['ma_planet_doesnt_exists']				     = '행성이 존재하지 않습니다. ';
+$LNG['ma_wrong_target']						     = '잘못된 대상';
+$LNG['ma_no_missiles']						     = '미사일이 없습니다';
+$LNG['ma_add_missile_number']				         = '미사일 수를 추가하세요! ';
+$LNG['ma_all']									 = '전체';
+$LNG['ma_missiles_sended']					     = '미사일이 발사되었습니다. 대상: ';
+//{IDs_0032} 명예의 전당
+$LNG['tkb_top']									 = '명예의 전당';
+$LNG['tkb_platz']							         = '순위';
+$LNG['tkb_owners']							     = '참여한 사용자';
+$LNG['tkb_datum']							     = '날짜';
+$LNG['tkb_units']							     = '유닛';
+$LNG['tkb_legende']							 = '<b>범례: </b>';
+$LNG['tkb_gewinner']						         = '<b>-우승자-</b>';
+$LNG['tkb_verlierer']						         = '<b>-패자-</b>';
+$LNG['tkb_unentschieden']					         = '<b>-무승부-</b>';
+//{IDs_0033} 플레이어 프로필
+$LNG['pl_name']								         = '사용자명';
+$LNG['pl_homeplanet']						         = '홈 행성';
+$LNG['pl_message']							         = '메시지';
+$LNG['pl_buddy']							         = '친구';
+$LNG['pl_points']							         = '포인트';
+$LNG['pl_range']							         = '순위';
+$LNG['pl_builds']							         = '건물';
+$LNG['pl_tech']								         = '연구';
+$LNG['pl_fleet']							         = '함대';
+$LNG['pl_def']								         = '방어';
+$LNG['pl_total']							         = '총 합계';
+$LNG['pl_fightstats']						         = '전투 통계';
+$LNG['pl_fights']							         = '전투';
+$LNG['pl_fprocent']							         = '전투 비율';
+$LNG['pl_fightwon']							         = '승리';
+$LNG['pl_fightdraw']						         = '무승부';
+$LNG['pl_fightlose']						         = '패배';
+$LNG['pl_totalfight']						         = '전투 횟수';
+$LNG['pl_destroy']							         = '%s 파괴';
+$LNG['pl_unitsshot']						         = '제거된 유닛';
+$LNG['pl_unitslose']						         = '상실한 유닛';
+$LNG['pl_dermetal']							         = '재활용된 금속';
+$LNG['pl_dercrystal']						         = '재활용된 크리스탈';
+//{IDs_0034} 기술 지원
+$LNG['ti_header'] 							         = '지원 시스템';
+$LNG['ti_overview'] 						         = '뒤로';
+$LNG['ti_id'] 								         = '티켓';
+$LNG['ti_username'] 						         = '플레이어';
+$LNG['ti_status'] 							         = '상태';
+$LNG['ti_date'] 							         = '날짜';
+$LNG['ti_answers'] 							         = '답변';
+$LNG['ti_close'] 							         = '티켓 닫힘';
+$LNG['ti_open'] 							         = '티켓 열기';
+$LNG['ti_new'] 								         = '새 티켓';
+$LNG['ti_status_open'] 						         = '열림';
+$LNG['ti_status_closed'] 					         = '닫힘';
+$LNG['ti_status_answer'] 					         = '답변';
+$LNG['ti_admin_open'] 						         = '티켓이 열렸습니다!';
+$LNG['ti_admin_close'] 						         = '티켓이 닫혔습니다!';
+$LNG['ti_error_closed'] 					         = '이미 닫힌 티켓이므로 답변을 작성할 수 없습니다!';
+$LNG['ti_create_info']						         = '<p>지원 티켓을 생성할 때 귀하의 문제에 대해 최대한 자세하게 설명해주세요!</p> <p>질문하고자 하는 내용을 상세히 기술하면 문제를 해결하는 데 걸리는 시간이 단축되고, 양측의 시간 낭비를 방지할 수 있습니다.</p> <p>계정 관련 문제인 경우, 문제의 할당 및 해결 시간을 단축하는 데 도움이 됩니다.</p>';
+$LNG['ti_create_head']						         = '티켓 생성';
+$LNG['ti_category']							         = '카테고리';
+$LNG['ti_subject']							         = '제목';
+$LNG['ti_submit']							         = '보내기';
+$LNG['ti_read']								         = '읽을 티켓';
+$LNG['ti_answer']							         = '답장';
+$LNG['ti_create']							         = '티켓 작성됨 ';
+$LNG['ti_responded']							     = '티켓 답변됨 ';
+$LNG['ti_re']								         = 'FW:';
+$LNG['ti_error_no_subject']					         = '제목을 입력해야 합니다!';
+//{IDs_0035} 레코드
+$LNG['rec_last_update_on']		   			         = '마지막 업데이트 일시 ';
+//{IDs_0036} 전투 시뮬레이터
+$LNG['bs_derbis_raport']   					         = "자원 재활용을 위해 필요한 잔해: %s %s 또는 %s %s. ";
+$LNG['bs_steal_raport']   					         = "자원을 획득하기 위해 필요한 것: %s %s 또는 %s %s 또는 %s %s.";
+$LNG['bs_atter']   							         = "공격자";
+$LNG['bs_deffer']   						         = "수비자";
+$LNG['bs_steal']   							         = "수비자의 자원:";
+$LNG['bs_techno']   						         = "기술";
+$LNG['bs_send']   							         = "계산";
+$LNG['bs_wait']   							         = "다음 시뮬레이션까지 10초 기다리세요";
+$LNG['bs_acs_slot']   						         = 'ACS-슬롯';
+$LNG['bs_reset']							         = '초기화';
+//{IDs_0037} Fleet Buyer
+$LNG['ft_head']								         = '상인 함대';
+$LNG['ft_count']							         = '수량';
+$LNG['ft_max']								         = '최대';
+$LNG['ft_total']							         = '합계';
+$LNG['ft_charge']							         = '상인 비율';
+$LNG['ft_absenden']							         = '보내기';	
+$LNG['ft_empty']							         = '공백';	
+//{IDs_0038} Logout
+$LNG['lo_title']							         = '정상적으로 로그아웃되었습니다';
+$LNG['lo_logout']							         = '세션이 종료되었습니다. 이용해 주셔서 감사합니다';
+$LNG['lo_notify']							         = '5초 뒤에 리디렉션됩니다. <span id="seconds">5</span> 초 남았습니다';
+$LNG['lo_continue']							         = '기다리지 않으려면 여기를 클릭하세요';
