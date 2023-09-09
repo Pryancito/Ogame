@@ -3,3 +3,6 @@
 /includes/config.php
 /includes/FIRST_INSTALL
 /includes/error.log
+.DS_Store
+.htaccess
+includes/backups/*
