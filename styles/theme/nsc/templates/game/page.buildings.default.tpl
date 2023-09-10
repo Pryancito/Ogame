@@ -84,7 +84,10 @@
                             </div>
                             <div class="content_box">
                                 <div class="image">
-                                    <a href="#" onclick="return Dialog.info({$ID})"><img src="{$dpath}gebaeude/{$ID}.gif" alt="" /></a>
+                                    <a href="#" onclick="return Dialog.info({$ID})">
+                                        <img src="{$dpath}gebaeude/{$ID}.jpg" alt="" />
+                                        <!-- <video src="{$dpath}gebaeude/{$ID}.mp4" autoplay="true" loop="true" width="100%" height="100%"></video> -->
+                                    </a>
                                 </div>
                                 {if !$Element.techacc}
                                 <div class="prices">

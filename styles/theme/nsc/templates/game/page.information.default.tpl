@@ -12,7 +12,7 @@
                     <div class="info_elements">
                         <div class="content_box ">
                             <div class="image">
-                                <img src="{$dpath}gebaeude/{$elementID}.gif" alt="">
+                                <video src="{$dpath}gebaeude/{$elementID}.mp4" autoplay="true" loop="true"></video>
                             </div>
                             <div class="prices info_description">
                                 <p class="info15">{$LNG.longDescription.$elementID}
