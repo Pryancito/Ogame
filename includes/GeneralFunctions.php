@@ -375,7 +375,7 @@ function BuildPlanetAddressLink($CurrentPlanet)
 
 function pretty_number($n, $dec = 0)
 {
-	return number_format(floatToString($n, $dec), $dec, ',', '.');
+	return number_format(floatToString($n, $dec), $dec, '.', ',');
 }
 
 function GetUserByID($userId, $GetInfo = "*")
