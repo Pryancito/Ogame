@@ -27,7 +27,7 @@
     <script type="text/javascript" src="./scripts/base/jquery.ui.js"></script>
 	<script type="text/javascript" src="./scripts/base/jquery.cookie.js"></script>
     <!--fancybox-->
-    <link rel="stylesheet" type="text/css" href="./styles/resource/css/base/jquery.fancybox_3.5.7.css">
+    <link rel="stylesheet" type="text/css" href="./styles/resource/css/base/jquery.fancybox.css">
     <script type="text/javascript" src="./scripts/base/jquery.fancybox.js"></script>    
     <!--style-->
     <link rel="stylesheet" type="text/css" href="./styles/resource/css/ingame/main.css">

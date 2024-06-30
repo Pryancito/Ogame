@@ -338,11 +338,15 @@ function pretty_time($seconds)
 		$time .= sprintf('%d%s ', $day, $LNG['short_day']);
 	}
 
-	return $time.sprintf('%02d%s %02d%s %02d%s',
-		$hour, $LNG['short_hour'],
-		$minute, $LNG['short_minute'],
-		$second, $LNG['short_second']
-	);
+	if($hour > 0) {
+		$time .= sprintf('%d%s ', $hour, $LNG['short_hour']);
+	}
+
+	if($minute > 0) {
+		$time .= sprintf('%d%s ', $minute, $LNG['short_minute']);
+	}
+
+	return $time.sprintf('%d%s', $second, $LNG['short_second']);
 }
 
 function pretty_fly_time($seconds)
@@ -371,7 +375,7 @@ function BuildPlanetAddressLink($CurrentPlanet)
 
 function pretty_number($n, $dec = 0)
 {
-	return number_format(floatToString($n, $dec), $dec, ',', '.');
+	return number_format(floatToString($n, $dec), $dec, '.', ',');
 }
 
 function GetUserByID($userId, $GetInfo = "*")

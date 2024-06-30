@@ -29,7 +29,7 @@
             {if $bonus_time < TIMESTAMP}
             <a class="big_btn blue btn_menu btn_menu_big" href="game.php?page=bonus">{$LNG.lm_bonus}</a>
             {else}
-            <a class="big_btn blue btn_menu btn_menu_big">{$bonus_time_rest}</a>
+            <a class="big_btn blue btn_menu btn_menu_big">EVENT @{$bonus_time_rest}</a>
             {/if}
             {*<div class="separator"></div>*} 
             <!-- ricerche  tecnologie-->
